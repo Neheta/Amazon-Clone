@@ -82,15 +82,27 @@
 }
 .panel{
   height: 40px;
+ /* padding-left: 3px; */
+ /* padding-right: 3px; */
   background-color: #222f3d;
   display: flex;
   color: white;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  /* background-color: aqua; */
 }
 .panel-ops p{
   display: inline;
+   margin-left: 15px;
 }
 .panel-ops{
   width: 70%;
+  font-size: 0.85rem;
+  /* background-color: antiquewhite; */
+ 
 }
+.panel-deals{
+ font-size: 0.86rem;
+ font-weight: bold;
+}
+
