@@ -138,8 +138,12 @@
   background-color: white;
   padding: 20px 0px 15px;
   margin-top: 15px;
+  /* font-size: 8px; */
 
   
+}
+.box-content h2{
+  font-size: 1.2rem;
 }
 .shop{
   display: flex;
@@ -150,12 +154,14 @@
 }
 .box-img{
   height: 300px;
+  /* width: 100%; */
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 1rem;
   margin-bottom: 1rem;
 
 }
+
 .box-content{
   margin-left: 1rem;
   margin-right: 1rem;
@@ -174,6 +180,63 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.85rem;
+  font-size: 0.84rem;
 }
+.footpanel-2{
+ background-color: #222f3d;
+  color: rgb(202, 198, 198);
+  height: 300px;
+ display: flex;
+ align-items:flex-start;
+  font-size: 0.88rem;
+  justify-content: space-evenly;
+  padding-top: 33px;
+
+}
+.footpanel-2 ul{
+list-style-type: none;
+line-height: 1.6rem;
+
+/* padding: 0px; */
+
+}
+.foot-3{
+  display: flex;
+  justify-content: center;
+  background-color: #222f3d;
+  color: rgb(202, 198, 198);
+  height: 300px;
+  border-top: solid 0.01px rgba(96, 94, 94, 0.671) ;
+  /* border-width: 90%; */
+  
+}
+.outer{
+  
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  height:5rem ;
+  
+}
+.inner1{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.inner1 select{
+  background-color: transparent;
+  color: white;
+  height:1.9rem;
+  width:33%;
+  border-radius: 5px;
+  padding: 5px;
+  
+
+}
+option{
+  background-color: #413f3f; 
+}
+
+
 
